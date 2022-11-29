@@ -1,0 +1,233 @@
+html {
+  margin: 0px;
+  box-sizing: 100vh;
+  font-family: "Raleway", sans-serif;
+  color: #043349;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.hallo {
+  background: linear-gradient(
+    #431c52,
+    #652a48,
+    #86383f,
+    #a84535,
+    #c9532c,
+    #eb6122
+  );
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: fondo-anim 20s infinite alternate;
+}
+.cool {
+  background-image: radial-gradient(
+    circle at -2.88% 19.47%,
+    #73c293 0,
+    #67c39c 4.17%,
+    #5bc4a5 8.33%,
+    #4ec4ae 12.5%,
+    #41c4b8 16.67%,
+    #34c4c1 20.83%,
+    #28c4ca 25%,
+    #1fc3d3 29.17%,
+    #1ec3db 33.33%,
+    #26c1e2 37.5%,
+    #34c0e9 41.67%,
+    #43beee 45.83%,
+    #53bcf2 50%,
+    #63baf5 54.17%,
+    #73b7f7 58.33%,
+    #83b4f7 62.5%,
+    #92b1f6 66.67%,
+    #a0aef4 70.83%,
+    #aeaaf1 75%,
+    #bba7ec 79.17%,
+    #c6a4e6 83.33%,
+    #d1a0e0 87.5%,
+    #da9ed8 91.67%,
+    #e29bd0 95.83%,
+    #e999c8 100%
+  );
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@keyframes fondo-anim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hero {
+  margin: 20px auto;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  background: rgb(255, 255, 255, 0.1);
+  border: 1px solid rgb(255, 255, 255, 0.01);
+  border-radius: 10px;
+  box-shadow: 7px 10px 17px 3px rgb(35 35 35 / 10%);
+  background: rgba(182, 194, 230, 0.346);
+  z-index: -1;
+  padding: 0 2em;
+  margin-bottom: 15%;
+}
+
+/* error */
+.error {
+  background-image: radial-gradient(
+    circle at 86.75% 93.8%,
+    #f91d78 0,
+    #fa2169 12.5%,
+    #f9295a 25%,
+    #f6324b 37.5%,
+    #f23c3c 50%,
+    #ec462d 62.5%,
+    #e54f1c 75%,
+    #dd5801 87.5%,
+    #d46100 100%
+  );
+
+  position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: max-content;
+  z-index: 1;
+  display: flex;
+  display: none;
+}
+.contenth1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenth1 h1 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  size: 3em;
+}
+.border {
+  display: flex;
+  align-items: center;
+  justify-content: centers;
+}
+.border img {
+  margin-right: 0.5em;
+}
+.contentPasos {
+  margin-bottom: 3em;
+  cursor: pointer;
+}
+.contentPasos h3 img {
+  margin-left: 0.5em;
+}
+.contentPasos h3 {
+  display: flex;
+  align-items: center;
+}
+
+.pasos {
+  font-size: x-large;
+  display: none;
+}
+.pasos dd {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: #043349;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 2%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+*/ .Info {
+  color: #043349;
+}
+
+.power {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #043349;
+}
+.power img {
+  margin-right: 0.5em;
+}
+
+.tela {
+  color: #043349;
+}
+
+.change {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.change div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.3em;
+  margin-top: 0.3em;
+  font-size: small;
+  font-weight: 500;
+}
+.change img {
+  width: 50px;
+  margin-left: 0.3em;
+}
+
+.ContainC {
+  font-weight: 800;
+}
+
+.halloCala {
+  display: none;
+  transition: color 0.8s linear 0.2s;
+}
+
+.coolCala {
+  transition: color 0.8s linear 0.2s;
+}
+.halloCala:focus {
+  display: none;
+  color: #043349;
+}
+
+.coolCala:focus {
+  transition: color 0.8s linear 0.2s;
+  color: #043349;
+}
+
+.reloaded {
+  margin-left: 1em;
+  cursor: pointer;
+}

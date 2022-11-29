@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="assets/calabaza (3).png"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Poppins:wght@200;400;500;700&family=Raleway&display=swap" rel="stylesheet">
+    <title>Compilador</title>
+  </head>
+  <body class="cool hallo">
+    
+    <div class="error hero"  id="error">
+        <h1 class="border"><img src="./assets/cancelar.png" width="30px"/> !  Error  ¡</h1>
+    </div>
+    
+    <div class="hero">
+      <div class="change" id="change">
+        <div>
+        theme Here
+          <img src="./assets/calabaza (4).png" class="coolCala" alt="" srcset=""><img src="./assets/calabaza (1).png" class="halloCala" width="30px"/>
+        </div>
+      </div>
+      <div class="Info">
+        <h1> <img src="./assets/calabaza (3).png"class="tela" width="25px"/> COMPILADOR <img src="./assets/calabaza (3).png"class="tela" width="25px"/> <img src="./assets/icons8-actualizar-30.png" width="25px" class="reloaded" alt="" srcset=""> </h1>
+        <h2>traduce codigo de Python a C, Solo funciona con un codigo en especifico</h2>
+        <div class="contentPasos" id="contentPasos">
+          <h3>Pasos para que funcione <img src="./assets/flecha-hacia-abajo.png" width="30px" alt=""> </h3>
+          <div class="pasos" id="pasos">
+            <dd>1.- crear un archivo txt con el nombre que quieras</dd>
+            <dd>2.- entra al link <a  target="_blank" href="https://drive.google.com/file/d/1Ssk_dZISSU0wOBndIXU9S-E1Ax7HjqK2/view">Click aqui</a> y copia el contenido</dd>
+            <dd>3.- pega el contenido en el txt previamente creado en el paso 1</dd>
+            <dd>4.- selecciona el archivo</dd>
+          </div>  
+          
+        </div>
+        <section></section>
+        <input type="file" id="file-input" />
+      </div>
+      <div class="ContainC">
+
+      
+      <h3>Resultado</h3>
+      <p id="contenido-archivo"></p>
+      <p id="cabeceras">
+        #include&lt;stdio.h&gt;
+      </p>
+      <p id="funciones">
+
+      </p>
+      <p id="main">
+        int main(){
+          <p id="mainContenido"></p>
+          return 0; <br>
+        }
+      </p>
+      <p id="comments"></p>
+    </div>
+      <p class="power"><img src="./assets/calabaza (1).png"class="tela" width="25px"/><strong>by: Jasiel</strong>  </p>
+  </div>
+  </body>
+  <script src="pasos.js" type="module"></script>
+  <script src="index.js" type="module"></script>
+</html>
